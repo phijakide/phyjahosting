@@ -1,0 +1,6 @@
+{
+  "name": "MPRServers - Premium Server Hosting",
+  "description": "Experience lightning-fast performance, unbeatable reliability, and 24/7 support. Host your Minecraft servers, Discord bots, and more with MPRServers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
