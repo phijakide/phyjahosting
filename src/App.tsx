@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { PricingSection } from './components/PricingSection';
@@ -129,6 +130,9 @@ export default function App() {
         onClose={() => setIsSupportOpen(false)}
         initialCategory={supportCategory}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
